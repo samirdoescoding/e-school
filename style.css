@@ -1,0 +1,61 @@
+/* utilities */
+.bg-light-green {
+  background-color: #F0FFF0;
+}
+
+.img-size-100px {
+  width: 100px;
+  height: 100px;
+}
+
+/***** Navbar Section *****/ 
+
+nav img {
+  width: 150px;
+}
+
+@media (width <= 768px){
+  .mobile-sign-in {
+    background-color: transparent;
+    color: #545954;
+    border: none;
+    padding: 0;
+  }
+}
+
+/***** End Navbar Section *****/
+
+/***** learning Section *****/
+
+.learning-section .card {
+  width: fit-content;
+  text-align: center;
+  padding: 20px 60px;
+  border: none;
+}
+
+.learning-section .card img {
+  margin: 0 auto;
+}
+
+.learning-section .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (width <= 768px) {
+  .learning-section .card h5 {
+    font-size: 12px;
+  }
+  .learning-section .card p {
+    font-size: 10px;
+  }
+  .learning-section .card img {
+    width: 50px;
+    height: 60px;
+  }
+  .learning-section .card {
+    padding: 20px 40px;
+  }
+}
+
+/***** End learning Section *****/
