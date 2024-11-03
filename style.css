@@ -8,6 +8,10 @@
   height: 100px;
 }
 
+.box-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 /***** Navbar Section *****/ 
 
 nav img {
@@ -42,6 +46,10 @@ nav img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.learning-section .card h5 {
+  margin-top: 10px;
+}
+
 @media (width <= 768px) {
   .learning-section .card h5 {
     font-size: 12px;
@@ -58,4 +66,70 @@ nav img {
   }
 }
 
+@media (width <= 821px) {
+  .learning-section .card h5 {
+    font-size: 14px;
+  }
+
+  .learning-section .card p {
+    font-size: 12px;
+  }
+
+  .learning-section .card img {
+    width: 50px;
+    height: 50px;
+  }
+  .learning-section .card {
+    padding: 20px 40px;
+  }
+}
+
 /***** End learning Section *****/
+
+/***** Courses Section *****/ 
+
+@media (width <= 992px) {
+  .time, .seats {
+    font-size: 12px;
+  }
+  .time svg {
+    width: 12px;
+  }
+  .seats svg {
+    width: 12px;
+  }
+}
+
+/***** End Courses Section *****/
+
+
+
+/***** testimonial Section *****/
+
+@media (width <= 768px){
+  .testimonial-section .test-pic img{ 
+   width: 150px;
+   height: 150px;
+  }
+}
+
+@media (width <= 992px) {
+  .testimonial-section .test-pic img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/***** End testimonial Section *****/
+
+/***** footer Section *****/
+
+@media (width <= 768px) {
+  footer .foot-box {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/***** End footer Section *****/
+
